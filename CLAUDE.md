@@ -75,7 +75,12 @@
 - 機密情報やトークンをリポジトリに含めること
 - 「動いたっぽい」だけで確認せず、検証を省略すること
 
-## 6. 実行例
+## 6. デプロイ情報
+
+- 本番URL: https://realestate-app-g6iq.vercel.app/
+- Supabaseプロジェクト名: realestate-app-g6iq
+
+## 7. 実行例
 
 ```bash
 git status

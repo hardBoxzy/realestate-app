@@ -123,11 +123,28 @@ button {
   color: #52606d;
 }
 
+.property-header-actions {
+  display: flex;
+  gap: 8px;
+}
+
 .property-header button {
   padding: 8px 16px;
-  border: 1px solid #d9dfe5;
+  border: none;
   border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.property-header button.secondary-button {
   background-color: #ffffff;
+  color: #1f2933;
+  border: 1px solid #d9dfe5;
+}
+
+.empty-message {
+  color: #52606d;
   font-size: 14px;
 }
 
@@ -150,8 +167,82 @@ button {
 }
 
 .property-rent,
-.property-area {
+.property-area,
+.property-layout {
   margin: 4px 0;
   font-size: 14px;
   color: #334155;
+}
+
+.property-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.property-card-actions button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 13px;
+  border: 1px solid #d9dfe5;
+  background-color: #ffffff;
+}
+
+.property-card-actions .danger-button {
+  color: #d64545;
+  border-color: #f3caca;
+}
+
+/* 物件登録・編集フォーム */
+.property-form {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.property-form h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.property-form label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #52606d;
+}
+
+.property-form input {
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #d9dfe5;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.property-form-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.property-form-actions button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.property-form-actions button.secondary-button {
+  background-color: #ffffff;
+  color: #1f2933;
+  border: 1px solid #d9dfe5;
 }
